@@ -1,0 +1,65 @@
+SAMPLE REST APIS
+
+
+1) Get Total Account
+Method Type:GET
+URL: http://localhost:8080/totalaccounts/
+
+Response
+[
+    {
+        "accountId": 1,
+        "acctNumber": "3435",
+        "email": "d@gmail.com",
+        "balance": 200.0
+    },
+    {
+        "accountId": 2,
+        "acctNumber": "12345",
+        "email": "e@gmail.com",
+        "balance": 300.0
+    }
+  ]  
+    
+ 2) Save Account
+ Method Type:POST
+URL: localhost:8080/save
+
+Request
+{
+"acctNumber":"12345",
+"email":"e@gmail.com","balance":"300"
+}
+
+Response
+{
+    "accountId": 2,
+    "acctNumber": "12345",
+    "email": "e@gmail.com",
+    "balance": 300.0
+}
+
+
+3)Transfer Amount
+ Method Type:PUT
+URL: localhost:8080/transfer?sourceAccountId=1&destAccountId=2&amount=100
+
+Response
+{
+    "accountId": 2,
+    "acctNumber": "12345",
+    "email": "e@gmail.com",
+    "balance": 400.0
+}
+
+4) GET Single account
+Method type: GET
+URL: http://localhost:8080/account/1
+
+Response
+{
+    "accountId": 1,
+    "acctNumber": "12345",
+    "email": "e@gmail.com",
+    "balance": 300.0
+}
