@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2021-10-08T19:41:25.191">
+<file name="/Users/apple/Desktop/accounttransfer1/src/main/java/com/project/accounttransfer/entity/Account.java">
+<violation beginline="23" endline="23" begincolumn="24" endcolumn="28" rule="UnusedPrivateField" ruleset="Unused Code" package="com.project.accounttransfer.entity" class="Account" variable="email" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'email'.
+</violation>
+</file>
+<file name="/Users/apple/Desktop/accounttransfer1/src/main/java/com/project/accounttransfer/entity/ErrorMessage.java">
+<violation beginline="6" endline="6" begincolumn="21" endcolumn="29" rule="UnusedPrivateField" ruleset="Unused Code" package="com.project.accounttransfer.entity" class="ErrorMessage" variable="errorCode" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'errorCode'.
+</violation>
+<violation beginline="8" endline="8" begincolumn="24" endcolumn="30" rule="UnusedPrivateField" ruleset="Unused Code" package="com.project.accounttransfer.entity" class="ErrorMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'message'.
+</violation>
+</file>
+<file name="/Users/apple/Desktop/accounttransfer1/src/main/java/com/project/accounttransfer/service/AccountService.java">
+<violation beginline="11" endline="11" begincolumn="16" endcolumn="49" rule="UnusedModifier" ruleset="Unused Code" package="com.project.accounttransfer.service" class="AccountService" method="saveAccount" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="14" endline="14" begincolumn="16" endcolumn="79" rule="UnusedModifier" ruleset="Unused Code" package="com.project.accounttransfer.service" class="AccountService" method="getAccount" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="17" endline="17" begincolumn="16" endcolumn="46" rule="UnusedModifier" ruleset="Unused Code" package="com.project.accounttransfer.service" class="AccountService" method="getAllAccounts" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="20" endline="21" begincolumn="16" endcolumn="56" rule="UnusedModifier" ruleset="Unused Code" package="com.project.accounttransfer.service" class="AccountService" method="transferAmountBetweenAccounts" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="/Users/apple/Desktop/accounttransfer1/src/main/java/com/project/accounttransfer/service/AccountServiceImpl.java">
+<violation beginline="105" endline="105" begincolumn="53" endcolumn="71" rule="UnusedLocalVariable" ruleset="Unused Code" package="com.project.accounttransfer.service" class="AccountServiceImpl" method="transferAmountBetweenAccounts" variable="notificationService" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'notificationService'.
+</violation>
+</file>
+<file name="/Users/apple/Desktop/accounttransfer1/src/main/java/com/project/accounttransfer/service/NotificationService.java">
+<violation beginline="7" endline="7" begincolumn="16" endcolumn="100" rule="UnusedModifier" ruleset="Unused Code" package="com.project.accounttransfer.service" class="NotificationService" method="sendNotification" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+</pmd>

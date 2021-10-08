@@ -1,29 +1,17 @@
 package com.project.accounttransfer.entity;
 
-import org.springframework.http.HttpStatus;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-
 public class ErrorMessage {
-	
-	private HttpStatus status;
+
+	/* Error code for throwing error */
+	private int errorCode;
+	/* Message of throwing error */
 	private String message;
-	
-	public ErrorMessage(HttpStatus status, String message) {
+
+	/* Parameterized constructor with status and message */
+	public ErrorMessage(int errorCode, String message) {
 		super();
-		this.status = status;
+		this.errorCode = errorCode;
 		this.message = message;
 	}
 
-	public ErrorMessage(HttpStatus status) {
-		super();
-		this.status = status;
-	}
-
-	
-	
 }
